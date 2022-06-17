@@ -3,7 +3,11 @@ import Bio from './components/Bio';
 
 function App() {
   return (
+    <>
       <Bio />
+      <Bio />
+      <Bio />
+    </>
     // <div className="App">
     //   <header className="App-header">
     //     <a
