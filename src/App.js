@@ -9,6 +9,12 @@ function App() {
       <Bio1 />
       <Bio2 />
       <Bio3 />
+      <Bio1 />
+      <Bio2 />
+      <Bio3 />
+      <Bio1 />
+      <Bio2 />
+      <Bio3 />
     </>
     // <div className="App">
     //   <header className="App-header">

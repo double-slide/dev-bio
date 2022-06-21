@@ -31,14 +31,14 @@ function Bio1() {
               weight={700}
               style={{ fontFamily: 'Greycliff CF, sans-serif' }}
             >
-              Hi, my name is <Text color="red" inherit component="span">Iaan</Text>.
+              Hi, my name is <Text color="red" inherit component="span">Iaan</Text>
             </Title>
 
             <Space h='lg'/>
             <Space h='lg'/>
 
             <Title>
-              I’m a full stack web developer.
+              I’m a full stack web developer
             </Title>
 
 

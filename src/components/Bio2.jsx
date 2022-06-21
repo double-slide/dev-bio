@@ -1,4 +1,4 @@
-import { Card, Center, Grid } from '@mantine/core';
+import { Card, Center, Grid, Title, Space, Text } from '@mantine/core';
 
 function Bio2() {
   return (
@@ -35,21 +35,26 @@ function Bio2() {
 
           </Grid.Col>
 
-          <Grid.Col span={2}>
+          <Grid.Col span={1}>
 
           </Grid.Col>
-          <Grid.Col span={7}>
+          <Grid.Col span={8}>
 
 
-            <p>
-              My previous career as a mechanical engineer brought me close to my current passion: creating web applications. My experience working in cross-discipline teams taught me how to quickly translate technical jargon into language that is accessible for others.
 
-              As an engineer, I’ve always been keen to design products that are easy to use, and easy to service. This philosophy still holds true – I now strive to create quality software experiences for users, and maintainable code for other developers.
 
-              During my degree, I used languages like Matlab and C++ to perform calculations. As a working engineer, I used Python, VBA and Matlab to automate tasks and process data.
+            <Title>
+              My previous career as a mechanical engineer brought me close to my current passion:
+            </Title>
 
-              More recently through my web development diploma, I have delivered projects using JavaScript, React, SQL, Node, Express, Ruby, and Rails.
-            </p>
+            <Space h='lg' />
+
+            <Title>
+            <Text color="red" inherit component="span">
+              Creating web applications
+              </Text>
+              
+            </Title>
 
 
 
