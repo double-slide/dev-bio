@@ -1,13 +1,14 @@
 import './App.css';
 import Bio1 from './components/Bio1';
 import Bio2 from './components/Bio2';
+import Bio3 from './components/Bio3';
 
 function App() {
   return (
     <>
       <Bio1 />
       <Bio2 />
-      {/* <Bio /> */}
+      <Bio3 />
     </>
     // <div className="App">
     //   <header className="App-header">
