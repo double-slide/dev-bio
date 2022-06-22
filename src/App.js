@@ -2,10 +2,13 @@ import './App.css';
 import Bio1 from './components/Bio1';
 import Bio2 from './components/Bio2';
 import Bio3 from './components/Bio3';
+import TabsAtTop from './components/Tabs';
 
 function App() {
   return (
     <>
+
+      <TabsAtTop />
       <Bio1 />
       <Bio2 />
       <Bio3 />
